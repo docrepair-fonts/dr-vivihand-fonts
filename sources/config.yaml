@@ -4,4 +4,4 @@ buildVariable: false
 familyName: Lumanosimo
 outputDir: ../fonts
 sources:
-  - Lumanosimo-Italic.designspace
+  - Lumanosimo-Regular.designspace
