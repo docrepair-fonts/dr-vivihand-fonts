@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Agrave" format="2">
+  <advance width="1560"/>
+  <unicode hex="00C0"/>
+  <anchor x="871" y="0" name="bottom"/>
+  <anchor x="1563" y="17" name="ogonek"/>
+  <anchor x="1064" y="1850" name="top"/>
+  <outline>
+    <component base="A"/>
+    <component base="gravecomb.case" xOffset="384" yOffset="1"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.metricsWidth</key>
+  <string>=":ref_Regular"</string>
+  <key>com.fontlab.recipe</key>
+  <string>A+gravecomb.case</string>
+  </dict>
+  </lib>
+</glyph>

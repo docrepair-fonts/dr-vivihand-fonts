@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="oslash" format="2">
+  <advance width="1373"/>
+  <unicode hex="00F8"/>
+  <anchor x="807" y="1170" name="top"/>
+  <outline>
+    <component base="o"/>
+    <contour>
+      <point x="1125" y="1399" type="curve" smooth="yes"/>
+      <point x="897" y="1399"/>
+      <point x="800" y="878"/>
+      <point x="716.61" y="567.71" type="curve" smooth="yes"/>
+      <point x="671" y="398"/>
+      <point x="589" y="45"/>
+      <point x="317" y="-174" type="curve"/>
+      <point x="349" y="-198"/>
+      <point x="400" y="-227"/>
+      <point x="441" y="-227" type="curve" smooth="yes"/>
+      <point x="665" y="-227"/>
+      <point x="793" y="518"/>
+      <point x="863.082" y="740.613" type="curve" smooth="yes"/>
+      <point x="912" y="896"/>
+      <point x="958" y="1207"/>
+      <point x="1205" y="1286" type="curve"/>
+      <point x="1202" y="1329"/>
+      <point x="1177" y="1399"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsWidth</key>
+  <string>=":ref_Regular"</string>
+  </dict>
+  </lib>
+</glyph>

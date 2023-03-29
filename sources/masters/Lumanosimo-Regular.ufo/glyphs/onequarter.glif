@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="onequarter" format="2">
+  <advance width="2011"/>
+  <unicode hex="00BC"/>
+  <outline>
+    <component base="onesuperior"/>
+    <component base="divisionslash" xOffset="799"/>
+    <component base="four.superior" xOffset="951" yOffset="-797"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsWidth</key>
+  <string>=":ref_Regular"</string>
+  <key>com.fontlab.recipe</key>
+  <string>onesuperior_divisionslash_four.superior</string>
+  </dict>
+  </lib>
+</glyph>

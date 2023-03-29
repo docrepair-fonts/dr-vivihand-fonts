@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Yacute" format="2">
+  <advance width="1196"/>
+  <unicode hex="00DD"/>
+  <anchor x="753" y="0" name="bottom"/>
+  <anchor x="123" y="1510" name="topleft"/>
+  <anchor x="918" y="1850" name="top"/>
+  <outline>
+    <component base="Y"/>
+    <component base="acutecomb.case" xOffset="289" yOffset="1"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.metricsWidth</key>
+  <string>=":ref_Regular"</string>
+  <key>com.fontlab.recipe</key>
+  <string>Y+acutecomb.case</string>
+  </dict>
+  </lib>
+</glyph>

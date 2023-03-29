@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="igrave" format="2">
+  <advance width="908"/>
+  <unicode hex="00EC"/>
+  <anchor x="230" y="0" name="bottom"/>
+  <anchor x="611" y="17" name="ogonek"/>
+  <anchor x="734" y="1559" name="top"/>
+  <outline>
+    <component base="idotless"/>
+    <component base="gravecomb" xOffset="72"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.metricsWidth</key>
+  <string>=":ref_Regular"</string>
+  <key>com.fontlab.recipe</key>
+  <string>idotless+gravecomb</string>
+  </dict>
+  </lib>
+</glyph>

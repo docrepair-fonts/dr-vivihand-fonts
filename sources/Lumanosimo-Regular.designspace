@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="4.0">
+ <axes>
+  <axis tag="wght" maximum="1000" name="weight" minimum="1" default="400">
+   <labelname xml:lang="en">Weight</labelname>
+   <map output="1" input="1"/>
+   <map output="400" input="400"/>
+   <map output="1000" input="1000"/>
+  </axis>
+  <axis tag="wdth" maximum="200" name="width" minimum="8" default="8">
+   <labelname xml:lang="en">Width</labelname>
+   <map output="1" input="8"/>
+   <map output="200" input="200"/>
+  </axis>
+ </axes>
+ <sources>
+  <source familyname="Lumanosimo" filename="masters/Lumanosimo-Regular.ufo" stylename="Italic" name="Regular">
+   <lib copy="1"/>
+   <groups copy="1"/>
+   <info copy="1"/>
+   <features copy="1"/>
+   <location>
+    <dimension name="weight" xvalue="400"/>
+    <dimension name="width" xvalue="1"/>
+   </location>
+  </source>
+ </sources>
+ <lib>
+  <dict>
+   <key>org.docrepair-fonts.fit</key>
+   <dict>
+    <key>tgt_Regular</key>
+    <string>mux_Regular</string>
+   </dict>
+  </dict>
+ </lib>
+ <instances>
+  <instance familyname="Lumanosimo" filename="instances/Lumanosimo-Regular.ufo" stylename="Regular" name="Regular">
+   <location>
+    <dimension name="width" xvalue="100"/>
+    <dimension name="weight" xvalue="400"/>
+   </location>
+  </instance>
+ </instances>
+</designspace>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cedilla" format="2">
+  <advance width="1382"/>
+  <unicode hex="00B8"/>
+  <outline>
+    <contour>
+      <point x="443" y="-452" type="curve" smooth="yes"/>
+      <point x="583" y="-452"/>
+      <point x="764" y="-388"/>
+      <point x="764" y="-221" type="curve" smooth="yes"/>
+      <point x="764" y="-88"/>
+      <point x="593" y="-77"/>
+      <point x="497" y="-71" type="curve"/>
+      <point x="527" y="-16"/>
+      <point x="554" y="42"/>
+      <point x="583" y="98" type="curve"/>
+      <point x="525" y="98" type="line"/>
+      <point x="484" y="31"/>
+      <point x="390" y="-92"/>
+      <point x="390" y="-170" type="curve" smooth="yes"/>
+      <point x="390" y="-181"/>
+      <point x="430" y="-179"/>
+      <point x="440" y="-180" type="curve" smooth="yes"/>
+      <point x="481" y="-184"/>
+      <point x="643" y="-189"/>
+      <point x="643" y="-250" type="curve" smooth="yes"/>
+      <point x="643" y="-312"/>
+      <point x="520" y="-327"/>
+      <point x="477" y="-327" type="curve" smooth="yes"/>
+      <point x="429" y="-327"/>
+      <point x="334" y="-309"/>
+      <point x="327" y="-248" type="curve"/>
+      <point x="290" y="-253"/>
+      <point x="269" y="-314"/>
+      <point x="269" y="-346" type="curve" smooth="yes"/>
+      <point x="269" y="-424"/>
+      <point x="381" y="-452"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsWidth</key>
+  <string>=":ref_Regular"</string>
+  </dict>
+  </lib>
+</glyph>

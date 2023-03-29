@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Aring" format="2">
+  <advance width="1560"/>
+  <unicode hex="00C5"/>
+  <anchor x="871" y="0" name="bottom"/>
+  <anchor x="1563" y="17" name="ogonek"/>
+  <outline>
+    <component base="A"/>
+    <component base="ring" xOffset="451" yOffset="403"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.metricsWidth</key>
+  <string>=":ref_Regular"</string>
+  <key>com.fontlab.recipe</key>
+  <string>A+ring</string>
+  </dict>
+  </lib>
+</glyph>

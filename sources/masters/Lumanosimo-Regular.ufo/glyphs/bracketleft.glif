@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bracketleft" format="2">
+  <advance width="1113"/>
+  <unicode hex="005B"/>
+  <outline>
+    <contour>
+      <point x="967" y="-9" type="curve"/>
+      <point x="810" y="-46"/>
+      <point x="648" y="-48"/>
+      <point x="488" y="-64" type="curve"/>
+      <point x="479" y="-28"/>
+      <point x="471" y="8"/>
+      <point x="471" y="45" type="curve" smooth="yes"/>
+      <point x="471" y="452"/>
+      <point x="596" y="849"/>
+      <point x="669" y="1247" type="curve" smooth="yes"/>
+      <point x="683" y="1325"/>
+      <point x="690" y="1406"/>
+      <point x="715" y="1482" type="curve"/>
+      <point x="799" y="1442"/>
+      <point x="893" y="1422"/>
+      <point x="986" y="1422" type="curve" smooth="yes"/>
+      <point x="1121" y="1422"/>
+      <point x="1234" y="1504"/>
+      <point x="1222" y="1617" type="curve"/>
+      <point x="1083" y="1612"/>
+      <point x="944" y="1616"/>
+      <point x="805" y="1616" type="curve" smooth="yes"/>
+      <point x="674" y="1616"/>
+      <point x="537" y="1615"/>
+      <point x="415" y="1564" type="curve"/>
+      <point x="466" y="1478"/>
+      <point x="487" y="1379"/>
+      <point x="487" y="1280" type="curve" smooth="yes"/>
+      <point x="487" y="1195"/>
+      <point x="472" y="1111"/>
+      <point x="456" y="1028" type="curve" smooth="yes"/>
+      <point x="397" y="721"/>
+      <point x="328" y="416"/>
+      <point x="269" y="109" type="curve" smooth="yes"/>
+      <point x="261" y="66"/>
+      <point x="252" y="24"/>
+      <point x="252" y="-20" type="curve" smooth="yes"/>
+      <point x="252" y="-139"/>
+      <point x="351" y="-210"/>
+      <point x="463" y="-210" type="curve" smooth="yes"/>
+      <point x="610" y="-210"/>
+      <point x="991" y="-249"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsWidth</key>
+  <string>=":ref_Regular"</string>
+  </dict>
+  </lib>
+</glyph>

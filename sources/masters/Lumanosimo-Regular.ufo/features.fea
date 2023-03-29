@@ -1,0 +1,67 @@
+#> classes
+#/> otclasses
+@Uppercase = [A Aacute Acircumflex Adieresis Agrave Aring Atilde AE B C Ccedilla D Eth E Eacute Ecircumflex Edieresis Egrave F G H I Iacute Icircumflex Idieresis Igrave J K L M N Ntilde O Oacute Ocircumflex Odieresis Ograve Oslash Otilde OE P Thorn Q R S Scaron T U Uacute Ucircumflex Udieresis Ugrave V W X Y Yacute Ydieresis Z];
+#/< otclasses
+
+#/> tags
+@mux_lc = [a aacute acircumflex adieresis ae agrave aring atilde b c caron ccedilla circumflex d e eacute ecircumflex edieresis egrave eth f firsttonechinese florin g germandbls h i iacute icircumflex idieresis idotless igrave j k l m micro n ntilde o oacute ocircumflex odieresis oe ograve ordfeminine ordmasculine oslash otilde p pi q r s scaron t thorn u uacute ucircumflex udieresis ugrave v w x y yacute ydieresis z];
+@mux_ot = [.notdef acute acutecomb acutecomb.case ampersand approxequal asciicircum asciitilde asterisk at backslash bar braceleft braceright bracketleft bracketright breve brevecomb brokenbar bullet bulletoperator caroncomb caroncomb.case cedilla cedillacomb cent circumflexcomb circumflexcomb.case colon comma copyright currency dagger daggerdbl degree dieresis dieresiscomb dieresiscomb.case divide divisionslash dollar dotaccent dotaccentcomb eight ellipsis emdash endash equal euro exclam exclamdown five four four.superior grave gravecomb gravecomb.case greater greaterequal guillemetleft guillemetright guilsinglleft guilsinglright hungarumlaut hungarumlautcomb hyphen increment infinity integral less lessequal logicalnot lozenge multiply nbspace nine notequal numbersign ogonek ogonekcomb one onehalf onequarter onesuperior paragraph parenleft parenright partialdiff percent period perthousand plus plusminus product question questiondown quotedbl quotedblbase quotedblleft quotedblright quoteleft quoteright quotesinglbase quotesingle radical registered ring ringcomb section semicolon seven six slash softhyphen space sterling summation three threequarters threesuperior tilde tildecomb tildecomb.case trademark two twosuperior underscore yen zero];
+@mux_uc = [A AE Aacute Acircumflex Adieresis Agrave Aring Atilde B C Ccedilla D E Eacute Ecircumflex Edieresis Egrave Eth F G H I Iacute Icircumflex Idieresis Igrave J K L M N Ntilde O OE Oacute Ocircumflex Odieresis Ograve Ohm Oslash Otilde P Q R S Scaron T Thorn U Uacute Ucircumflex Udieresis Ugrave V W X Y Yacute Ydieresis Z];
+#/< tags
+#< classes
+
+#> languagesystem
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem grek dflt;
+#< languagesystem
+feature aalt {
+# Access All Alternates
+
+#> feature
+  feature sups;
+  feature case;
+#< feature
+} aalt;
+feature sups {
+# Superscript
+
+#> feature
+  sub four by four.superior;
+  sub one by onesuperior;
+  sub three by threesuperior;
+  sub two by twosuperior;
+#< feature
+} sups;
+feature frac {
+# Fractions
+
+#> feature
+lookup frac_precomposed {
+
+  sub one slash four by onequarter;
+  sub one slash two by onehalf;
+  sub three slash four by threequarters;
+} frac_precomposed;
+#< feature
+} frac;
+feature ordn {
+# Ordinals
+
+#> feature
+  sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+  sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+#< feature
+} ordn;
+feature case {
+# Case Sensitive Forms
+
+#> feature
+  sub acutecomb by acutecomb.case;
+  sub caroncomb by caroncomb.case;
+  sub circumflexcomb by circumflexcomb.case;
+  sub dieresiscomb by dieresiscomb.case;
+  sub gravecomb by gravecomb.case;
+  sub tildecomb by tildecomb.case;
+#< feature
+} case;
