@@ -9,7 +9,7 @@
     <key>copyright</key>
     <string>Copyright 2012 The Paprika Project Authors (https://github.com/etunni/paprika). Copyright 2023 The Lumanosimo Project Authors (github.com/googlefonts/lumanosimo).</string>
     <key>descender</key>
-    <integer>666</integer>
+    <integer>-666</integer>
     <key>familyName</key>
     <string>Lumanosimo</string>
     <key>guidelines</key>
@@ -131,7 +131,7 @@
     <key>openTypeOS2TypoAscender</key>
     <integer>1752</integer>
     <key>openTypeOS2TypoDescender</key>
-    <integer>666</integer>
+    <integer>-666</integer>
     <key>openTypeOS2TypoLineGap</key>
     <integer>-370</integer>
     <key>openTypeOS2UnicodeRanges</key>

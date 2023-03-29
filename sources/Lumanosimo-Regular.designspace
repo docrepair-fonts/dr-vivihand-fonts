@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
 <designspace format="4.0">
  <axes>
-  <axis tag="wght" name="weight" minimum="1" default="400" maximum="1000">
+  <axis name="weight" maximum="1000" minimum="1" tag="wght" default="400">
    <labelname xml:lang="en">Weight</labelname>
    <map output="1" input="1"/>
    <map output="400" input="400"/>
    <map output="1000" input="1000"/>
   </axis>
-  <axis tag="wdth" name="width" minimum="8" default="8" maximum="200">
+  <axis name="width" maximum="200" minimum="8" tag="wdth" default="8">
    <labelname xml:lang="en">Width</labelname>
    <map output="1" input="8"/>
    <map output="200" input="200"/>
   </axis>
  </axes>
  <sources>
-  <source stylename="Italic" familyname="Lumanosimo" name="Regular" filename="masters/Lumanosimo-Regular.ufo">
+  <source name="Regular" familyname="Lumanosimo" stylename="Italic" filename="masters/Lumanosimo-Regular.ufo">
    <lib copy="1"/>
    <groups copy="1"/>
    <info copy="1"/>
@@ -35,7 +35,7 @@
   </dict>
  </lib>
  <instances>
-  <instance stylename="Regular" familyname="Lumanosimo" name="Regular" filename="instances/Lumanosimo-Regular.ufo">
+  <instance name="Regular" familyname="Lumanosimo" stylename="Regular" filename="instances/Lumanosimo-Regular.ufo">
    <location>
     <dimension name="width" xvalue="100"/>
     <dimension name="weight" xvalue="400"/>
