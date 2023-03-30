@@ -1,18 +1,5 @@
-----
 
 # Lumanosimo
-
-[![][Fontbakery]](https://docrepair-fonts.github.io/lumanosimo-fonts/fontbakery/fontbakery-report.html)
-[![][Universal]](https://docrepair-fonts.github.io/lumanosimo-fonts/fontbakery/fontbakery-report.html)
-[![][GF Profile]](https://docrepair-fonts.github.io/lumanosimo-fonts/fontbakery/fontbakery-report.html)
-[![][Outline Correctness]](https://docrepair-fonts.github.io/lumanosimo-fonts/fontbakery/fontbakery-report.html)
-[![][Shaping]](https://docrepair-fonts.github.io/lumanosimo-fonts/fontbakery/fontbakery-report.html)
-
-[Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdocrepair-fonts%2Flumanosimo-fonts%2Fgh-pages%2Fbadges%2Foverall.json
-[GF Profile]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdocrepair-fonts%2Flumanosimo-fonts%2Fgh-pages%2Fbadges%2FGoogleFonts.json
-[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdocrepair-fonts%2Flumanosimo-fonts%2Fgh-pages%2Fbadges%2FOutlineCorrectnessChecks.json
-[Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdocrepair-fonts%2Flumanosimo-fonts%2Fgh-pages%2Fbadges%2FShapingChecks.json
-[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdocrepair-fonts%2Flumanosimo-fonts%2Fgh-pages%2Fbadges%2FUniversal.json
 
 Lumanosimo is a DocRepair font, intended to improve compliance with the
 ISO/IEC 29500 standard by providing fallback that minimizes text reflow in
