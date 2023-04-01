@@ -1,5 +1,4 @@
-Copyright Copyright 2012 The Paprika Project Authors (https://github.com/etunni/paprika)
-Copyright 2023 The Lumanosimo Project Authors (github.com/googlefonts/lumanosimo).
+Copyright 2023 The Lumanosimo Project Authors (https://github.com/docrepair-fonts/lumanosimo-fonts).
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:

@@ -7,7 +7,7 @@
     <key>capHeight</key>
     <integer>1434</integer>
     <key>copyright</key>
-    <string>Copyright 2012 The Paprika Project Authors (https://github.com/etunni/paprika). Copyright 2023 The Lumanosimo Project Authors (github.com/googlefonts/lumanosimo).</string>
+    <string>Copyright 2023 The Lumanosimo Project Authors (https://github.com/docrepair-fonts/lumanosimo-fonts).</string>
     <key>descender</key>
     <integer>-666</integer>
     <key>familyName</key>
@@ -69,9 +69,9 @@
     <key>openTypeHheaLineGap</key>
     <integer>0</integer>
     <key>openTypeNameDesigner</key>
-    <string>Eduardo Rodriguez Tunni</string>
+    <string>The DocRepair Project, Eduardo Rodriguez Tunni</string>
     <key>openTypeNameDesignerURL</key>
-    <string>https://www.tipo.net.ar/</string>
+    <string>https://github.com/docrepair-fonts/lumanosimo-fonts</string>
     <key>openTypeNameLicense</key>
     <string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL</string>
     <key>openTypeNameLicenseURL</key>
