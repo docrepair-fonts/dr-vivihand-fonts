@@ -36,7 +36,7 @@
       </dict>
     </array>
     <key>italicAngle</key>
-    <real>-11.25</real>
+    <integer>0</integer>
     <key>openTypeGaspRangeRecords</key>
     <array>
       <dict>
@@ -83,7 +83,7 @@
     <key>openTypeNamePreferredFamilyName</key>
     <string>Lumanosimo</string>
     <key>openTypeNamePreferredSubfamilyName</key>
-    <string>Italic</string>
+    <string>Regular</string>
     <key>openTypeNameVersion</key>
     <string>Version 1.010</string>
     <key>openTypeOS2CodePageRanges</key>
@@ -165,15 +165,17 @@
     <key>postscriptFamilyOtherBlues</key>
     <array/>
     <key>postscriptFontName</key>
-    <string>Lumanosimo-Italic</string>
+    <string>Lumanosimo-Regular</string>
     <key>postscriptForceBold</key>
     <false/>
     <key>postscriptFullName</key>
-    <string>Lumanosimo Italic</string>
+    <string>Lumanosimo Regular</string>
     <key>postscriptIsFixedPitch</key>
     <false/>
     <key>postscriptOtherBlues</key>
     <array/>
+    <key>postscriptSlantAngle</key>
+    <integer>0</integer>
     <key>postscriptStemSnapH</key>
     <array/>
     <key>postscriptStemSnapV</key>
@@ -189,7 +191,7 @@
     <key>styleMapStyleName</key>
     <string>regular</string>
     <key>styleName</key>
-    <string>Italic</string>
+    <string>Regular</string>
     <key>trademark</key>
     <string>Paprika is a trademark of Eduardo Rodriguez Tunni.</string>
     <key>unitsPerEm</key>
