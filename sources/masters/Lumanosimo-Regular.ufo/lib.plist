@@ -96,8 +96,18 @@
         </dict>
       </dict>
     </dict>
-    <key>com.typemytype.robofont.italicSlantOffset</key>
-    <real>-2.0</real>
+    <key>com.github.googlei18n.ufo2ft.featureWriters</key>
+    <array>
+      <dict>
+        <key>class</key>
+        <string>KernFeatureWriter</string>
+        <key>options</key>
+        <dict>
+          <key>mode</key>
+          <string>skip</string>
+        </dict>
+      </dict>
+    </array>
     <key>org.docrepair-fonts.fit</key>
     <dict>
       <key>ref</key>
